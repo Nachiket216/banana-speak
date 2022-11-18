@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey&display=swap');
+
+:root{
+    --primary:linear-gradient(to left, #00f260, #0575e6);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Marhey', cursive;
+}
+
+h1{
+    margin: 0%;
+}
+
+h4{
+    margin-bottom: 0%;
+}
+
+nav {
+    background:var(--primary);
+    text-align: center;
+    padding: 1.2rem;
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 0.3rem;
+    font-size: large;
+}
+
+button{
+    background: var(--primary);
+    border: 0;    
+    padding: 1rem;
+    margin-top: 1rem;
+    font-family: 'Marhey', cursive;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+#output{
+    width: 100%;
+    min-height: 10vh;
+    min-width: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+footer{
+    background: var(--primary);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
